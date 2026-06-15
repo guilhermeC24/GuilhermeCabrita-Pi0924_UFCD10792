@@ -1,0 +1,162 @@
+POST http://localhost:2525/imposters
+Content-Type: application/json
+
+{
+  "name": "2 Ex1",
+  "port": 4563,
+  "protocol": "http",
+  "stubs": [
+    {
+      "predicates": [
+        {
+          "equals": {
+            "method": "POST",
+            "path": "/api/alunos"
+          }
+        },
+        {
+          "matches": {
+            "body": "\"idade\"\\s*:\\s*[0-9]"
+          }
+        },
+        {
+          "not": {
+            "matches": {
+              "body": "\"idade\"\\s*:\\s*(10|11|12|13|14|15|16|17|18|19|[2-9][0-9])"
+            }
+          }
+        }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 400,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "body": {
+              "error": "Idade mínima não atingida"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "predicates": [
+        {
+          "equals": {
+            "method": "POST",
+            "path": "/api/alunos"
+          }
+        },
+        {
+          "contains": {
+            "body": "\"curso\":\"XYZ\""
+          }
+        }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 404,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "body": {
+              "error": "Curso não encontrado"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "predicates": [
+        {
+          "equals": {
+            "method": "GET",
+            "path": "/api/alunos"
+          }
+        }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 200,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "body": [
+              {
+                "id": 1,
+                "nome": "Joao",
+                "idade": 18,
+                "curso": "TPSI"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "predicates": [
+        {
+          "equals": {
+            "method": "GET",
+            "path": "/api/alunos/1"
+          }
+        }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 200,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "body": {
+              "id": 1,
+              "nome": "Joao",
+              "idade": 18,
+              "curso": "TPSI"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "predicates": [
+        {
+          "equals": {
+            "method": "POST",
+            "path": "/api/alunos"
+          }
+        }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 201,
+            "headers": {
+              "Content-Type": "application/json",
+              "Location": "/api/alunos/1"
+            },
+            "body": {
+              "id": 1,
+              "status": "created"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
+
+###
+POST http://localhost:4563/api/alunos
+Content-Type: application/json
+
+{
+  "nome":"Joao",
+  "idade":18,
+  "curso":"TPSI"
+}

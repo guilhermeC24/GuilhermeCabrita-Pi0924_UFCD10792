@@ -1,0 +1,123 @@
+POST http://localhost:2525/imposters
+Content-Type: application/json
+
+{
+  "name": "2 Ex4",
+  "port": 4566,
+  "protocol": "http",
+  "stubs": [
+    {
+      "predicates": [
+        {
+          "equals": {
+            "method": "POST",
+            "path": "/api/emprestimos"
+          }
+        },
+        {
+          "contains": {
+            "body": "\"livro_id\":1"
+          }
+        }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 409,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "body": {
+              "error": "Livro emprestado"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "predicates": [
+        {
+          "equals": {
+            "method": "PUT",
+            "path": "/api/emprestimos/999/devolucao"
+          }
+        }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 404,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "body": {
+              "error": "Empréstimo não encontrado"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "predicates": [
+        {
+          "equals": {
+            "method": "GET",
+            "path": "/api/livros"
+          }
+        }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 200,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "body": [
+              {
+                "id": 1,
+                "titulo": "Clean Code",
+                "autor": "Robert Martin"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "predicates": [
+        {
+          "equals": {
+            "method": "POST",
+            "path": "/api/emprestimos"
+          }
+        }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 201,
+            "headers": {
+              "Content-Type": "application/json",
+              "Location": "/api/emprestimos/1"
+            },
+            "body": {
+              "id": 1,
+              "status": "created"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
+
+###
+POST http://localhost:4566/api/emprestimos
+Content-Type: application/json
+
+{
+  "cliente":"Joao",
+  "livro_id":2,
+  "data_emprestimo":"2025-06-20"
+}
