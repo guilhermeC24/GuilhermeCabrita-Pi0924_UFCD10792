@@ -6,6 +6,7 @@ Content-Type: application/json
   "port": 4563,
   "protocol": "http",
   "stubs": [
+
     {
       "predicates": [
         {
@@ -16,14 +17,7 @@ Content-Type: application/json
         },
         {
           "matches": {
-            "body": "\"idade\"\\s*:\\s*[0-9]"
-          }
-        },
-        {
-          "not": {
-            "matches": {
-              "body": "\"idade\"\\s*:\\s*(10|11|12|13|14|15|16|17|18|19|[2-9][0-9])"
-            }
+            "body": "\"idade\"\\s*:\\s*[0-9](\\D|$)"
           }
         }
       ],
@@ -41,6 +35,7 @@ Content-Type: application/json
         }
       ]
     },
+
     {
       "predicates": [
         {
@@ -50,8 +45,10 @@ Content-Type: application/json
           }
         },
         {
-          "contains": {
-            "body": "\"curso\":\"XYZ\""
+          "not": {
+            "matches": {
+              "body": "\"curso\"\\s*:\\s*\"TPSI\""
+            }
           }
         }
       ],
@@ -69,6 +66,7 @@ Content-Type: application/json
         }
       ]
     },
+
     {
       "predicates": [
         {
@@ -91,12 +89,19 @@ Content-Type: application/json
                 "nome": "Joao",
                 "idade": 18,
                 "curso": "TPSI"
+              },
+              {
+                "id": 2,
+                "nome": "Martim",
+                "idade": 20,
+                "curso": "TPSI"
               }
             ]
           }
         }
       ]
     },
+
     {
       "predicates": [
         {
@@ -123,6 +128,31 @@ Content-Type: application/json
         }
       ]
     },
+
+    {
+      "predicates": [
+        {
+          "equals": {
+            "method": "GET",
+            "path": "/api/alunos/999"
+          }
+        }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 404,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "body": {
+              "error": "Aluno não encontrado"
+            }
+          }
+        }
+      ]
+    },
+
     {
       "predicates": [
         {
@@ -138,25 +168,155 @@ Content-Type: application/json
             "statusCode": 201,
             "headers": {
               "Content-Type": "application/json",
-              "Location": "/api/alunos/1"
+              "Location": "/api/alunos/3"
             },
             "body": {
-              "id": 1,
+              "id": 3,
               "status": "created"
             }
           }
         }
       ]
+    },
+
+    {
+      "predicates": [
+        {
+          "equals": {
+            "method": "PUT",
+            "path": "/api/alunos/1"
+          }
+        }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 200,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "body": {
+              "id": 1,
+              "status": "updated"
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "predicates": [
+        {
+          "equals": {
+            "method": "PUT",
+            "path": "/api/alunos/999"
+          }
+        }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 404,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "body": {
+              "error": "Aluno não encontrado"
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "predicates": [
+        {
+          "equals": {
+            "method": "DELETE",
+            "path": "/api/alunos/1",
+            "headers": {
+              "Role": "admin"
+            }
+          }
+        }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 200,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "body": {
+              "message": "Aluno removido"
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "predicates": [
+        {
+          "equals": {
+            "method": "DELETE",
+            "path": "/api/alunos/1"
+          }
+        }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 403,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "body": {
+              "error": "Permissão negada"
+            }
+          }
+        }
+      ]
     }
+
   ]
 }
 
-###
+### Listar alunos
+GET http://localhost:4563/api/alunos
+Content-Type: application/json
+
+### Listar um aluno especifico
+GET http://localhost:4563/api/alunos/1
+Content-Type: application/json
+
+### Criar novo aluno
 POST http://localhost:4563/api/alunos
 Content-Type: application/json
 
 {
-  "nome":"Joao",
-  "idade":18,
+  "nome":"Martim",
+  "idade":20,
+  "curso":"TPSI"
+}
+
+###
+PUT http://localhost:4563/api/alunos/2
+Content-Type: application/json
+
+{
+  "nome":"Marcel",
+  "idade":20,
+  "curso":"TPSI"
+}
+
+
+### Idade minima
+POST http://localhost:4563/api/alunos
+Content-Type: application/json
+
+{
+  "nome":"Gonçalo",
+  "idade":2,
   "curso":"TPSI"
 }

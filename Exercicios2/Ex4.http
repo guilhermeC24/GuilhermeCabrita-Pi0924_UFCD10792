@@ -6,6 +6,93 @@ Content-Type: application/json
   "port": 4566,
   "protocol": "http",
   "stubs": [
+
+    {
+      "predicates": [
+        {
+          "equals": {
+            "method": "GET",
+            "path": "/api/livros"
+          }
+        }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 200,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "body": [
+              {
+                "id": 1,
+                "titulo": "1984",
+                "autor": "George Orwell",
+                "disponivel": true
+              },
+              {
+                "id": 2,
+                "titulo": "Os Maias",
+                "autor": "Eça de Queirós",
+                "disponivel": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+
+    {
+      "predicates": [
+        {
+          "equals": {
+            "method": "GET",
+            "path": "/api/livros/1"
+          }
+        }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 200,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "body": {
+              "id": 1,
+              "titulo": "1984",
+              "autor": "George Orwell",
+              "descricao": "Distopia sobre vigilância total"
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "predicates": [
+        {
+          "equals": {
+            "method": "GET",
+            "path": "/api/livros/999"
+          }
+        }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 404,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "body": {
+              "error": "Livro não encontrado"
+            }
+          }
+        }
+      ]
+    },
+
     {
       "predicates": [
         {
@@ -15,8 +102,8 @@ Content-Type: application/json
           }
         },
         {
-          "contains": {
-            "body": "\"livro_id\":1"
+          "matches": {
+            "body": "\"livro_id\"\\s*:\\s*2"
           }
         }
       ],
@@ -28,12 +115,66 @@ Content-Type: application/json
               "Content-Type": "application/json"
             },
             "body": {
-              "error": "Livro emprestado"
+              "error": "Livro já está emprestado"
             }
           }
         }
       ]
     },
+
+    {
+      "predicates": [
+        {
+          "equals": {
+            "method": "POST",
+            "path": "/api/emprestimos"
+          }
+        }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 201,
+            "headers": {
+              "Content-Type": "application/json",
+              "Location": "/api/emprestimos/1"
+            },
+            "body": {
+              "id": 1,
+              "cliente": "Joao",
+              "livro_id": 1,
+              "status": "emprestado"
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "predicates": [
+        {
+          "equals": {
+            "method": "PUT",
+            "path": "/api/emprestimos/1/devolucao"
+          }
+        }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 200,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "body": {
+              "id": 1,
+              "status": "devolvido"
+            }
+          }
+        }
+      ]
+    },
+
     {
       "predicates": [
         {
@@ -57,12 +198,37 @@ Content-Type: application/json
         }
       ]
     },
+
     {
       "predicates": [
         {
           "equals": {
-            "method": "GET",
-            "path": "/api/livros"
+            "method": "DELETE",
+            "path": "/api/livros/2"
+          }
+        }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 409,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "body": {
+              "error": "Livro não pode ser removido porque está emprestado"
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "predicates": [
+        {
+          "equals": {
+            "method": "DELETE",
+            "path": "/api/livros/1"
           }
         }
       ],
@@ -73,51 +239,13 @@ Content-Type: application/json
             "headers": {
               "Content-Type": "application/json"
             },
-            "body": [
-              {
-                "id": 1,
-                "titulo": "Clean Code",
-                "autor": "Robert Martin"
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "predicates": [
-        {
-          "equals": {
-            "method": "POST",
-            "path": "/api/emprestimos"
-          }
-        }
-      ],
-      "responses": [
-        {
-          "is": {
-            "statusCode": 201,
-            "headers": {
-              "Content-Type": "application/json",
-              "Location": "/api/emprestimos/1"
-            },
             "body": {
-              "id": 1,
-              "status": "created"
+              "message": "Livro removido com sucesso"
             }
           }
         }
       ]
     }
+
   ]
-}
-
-###
-POST http://localhost:4566/api/emprestimos
-Content-Type: application/json
-
-{
-  "cliente":"Joao",
-  "livro_id":2,
-  "data_emprestimo":"2025-06-20"
 }
