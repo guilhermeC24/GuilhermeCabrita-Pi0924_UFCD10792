@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PAF2024#\\source\\repos\\HotelKikas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{79BC6292-19EE-4A48-A957-69D7566A7BB9}|HotelKikas.csproj|C:\\Users\\PAF2024#\\source\\repos\\HotelKikas\\controllers\\reservascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79BC6292-19EE-4A48-A957-69D7566A7BB9}|HotelKikas.csproj|solutionrelative:controllers\\reservascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79BC6292-19EE-4A48-A957-69D7566A7BB9}|HotelKikas.csproj|C:\\Users\\PAF2024#\\source\\repos\\HotelKikas\\model\\reservaresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79BC6292-19EE-4A48-A957-69D7566A7BB9}|HotelKikas.csproj|solutionrelative:model\\reservaresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79BC6292-19EE-4A48-A957-69D7566A7BB9}|HotelKikas.csproj|c:\\users\\paf2024#\\source\\repos\\hotelkikas\\model\\reservarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79BC6292-19EE-4A48-A957-69D7566A7BB9}|HotelKikas.csproj|solutionrelative:model\\reservarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79BC6292-19EE-4A48-A957-69D7566A7BB9}|HotelKikas.csproj|C:\\Users\\PAF2024#\\source\\repos\\HotelKikas\\mini_site\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79BC6292-19EE-4A48-A957-69D7566A7BB9}|HotelKikas.csproj|solutionrelative:mini_site\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79BC6292-19EE-4A48-A957-69D7566A7BB9}|HotelKikas.csproj|C:\\Users\\PAF2024#\\source\\repos\\HotelKikas\\mini_site\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{79BC6292-19EE-4A48-A957-69D7566A7BB9}|HotelKikas.csproj|solutionrelative:mini_site\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79BC6292-19EE-4A48-A957-69D7566A7BB9}|HotelKikas.csproj|C:\\Users\\PAF2024#\\source\\repos\\HotelKikas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79BC6292-19EE-4A48-A957-69D7566A7BB9}|HotelKikas.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79BC6292-19EE-4A48-A957-69D7566A7BB9}|HotelKikas.csproj|C:\\Users\\PAF2024#\\source\\repos\\HotelKikas\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{79BC6292-19EE-4A48-A957-69D7566A7BB9}|HotelKikas.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PAF2024#\\source\\repos\\HotelKikas\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\PAF2024#\\source\\repos\\HotelKikas\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T11:30:12.192Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PAF2024#\\source\\repos\\HotelKikas\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\PAF2024#\\source\\repos\\HotelKikas\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-01T11:30:44.159Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\PAF2024#\\source\\repos\\HotelKikas\\mini_site\\index.html",
+              "RelativeDocumentMoniker": "mini_site\\index.html",
+              "ToolTip": "C:\\Users\\PAF2024#\\source\\repos\\HotelKikas\\mini_site\\index.html",
+              "RelativeToolTip": "mini_site\\index.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-07-01T12:33:49.076Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "script.js",
+              "DocumentMoniker": "C:\\Users\\PAF2024#\\source\\repos\\HotelKikas\\mini_site\\script.js",
+              "RelativeDocumentMoniker": "mini_site\\script.js",
+              "ToolTip": "C:\\Users\\PAF2024#\\source\\repos\\HotelKikas\\mini_site\\script.js",
+              "RelativeToolTip": "mini_site\\script.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-07-01T11:54:18.963Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReservasController.cs",
+              "DocumentMoniker": "C:\\Users\\PAF2024#\\source\\repos\\HotelKikas\\Controllers\\ReservasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReservasController.cs",
+              "ToolTip": "C:\\Users\\PAF2024#\\source\\repos\\HotelKikas\\Controllers\\ReservasController.cs",
+              "RelativeToolTip": "Controllers\\ReservasController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T11:29:59.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReservaResponse.cs",
+              "DocumentMoniker": "C:\\Users\\PAF2024#\\source\\repos\\HotelKikas\\Model\\ReservaResponse.cs",
+              "RelativeDocumentMoniker": "Model\\ReservaResponse.cs",
+              "ToolTip": "C:\\Users\\PAF2024#\\source\\repos\\HotelKikas\\Model\\ReservaResponse.cs",
+              "RelativeToolTip": "Model\\ReservaResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T11:33:26.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReservaRequest.cs",
+              "DocumentMoniker": "C:\\Users\\PAF2024#\\source\\repos\\HotelKikas\\Model\\ReservaRequest.cs",
+              "RelativeDocumentMoniker": "Model\\ReservaRequest.cs",
+              "ToolTip": "C:\\Users\\PAF2024#\\source\\repos\\HotelKikas\\Model\\ReservaRequest.cs",
+              "RelativeToolTip": "Model\\ReservaRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T11:39:21.498Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
