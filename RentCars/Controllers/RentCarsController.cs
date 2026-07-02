@@ -75,17 +75,12 @@ namespace RentCars.Controllers
         [HttpPut("novo")]
         public IActionResult Adicionar(ReservaCarResponse response)
         {
-            var carro = carros.FirstOrDefault(c =>
-                c.ID == response.ID &&
-                c.Marca == response.Marca &&
-                c.Modelo == response.Modelo &&
-                c.Matricula == response.Matricula);
+            carros.Add(response);
 
-            carros.Add(carro);
             return Ok(new
             {
                 Mensagem = "Carro adicionado com sucesso.",
-                Carro = carro
+                Carro = response
             });
         }
     }

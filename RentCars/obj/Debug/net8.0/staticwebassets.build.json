@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xRix2xNHxWUOTsyYDCVqQrej/yT7P6mhN3eMm6TA0aI=",
+  "Hash": "MIdJ7nRQfCvkWvNDIeLVynkb/BeDIEbwZCkCqB/YBGY=",
   "Source": "RentCars",
   "BasePath": "_content/RentCars",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "RentCars\\wwwroot",
       "Source": "RentCars",
-      "ContentRoot": "C:\\Users\\PAF2024#\\source\\repos\\RentCars\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PAF2024#\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\RentCars\\wwwroot\\",
       "BasePath": "_content/RentCars",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\PAF2024#\\source\\repos\\RentCars\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\PAF2024#\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\RentCars\\wwwroot\\index.html",
       "SourceId": "RentCars",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PAF2024#\\source\\repos\\RentCars\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PAF2024#\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\RentCars\\wwwroot\\",
       "BasePath": "_content/RentCars",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\PAF2024#\\source\\repos\\RentCars\\wwwroot\\script.js",
+      "Identity": "C:\\Users\\PAF2024#\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\RentCars\\wwwroot\\script.js",
       "SourceId": "RentCars",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PAF2024#\\source\\repos\\RentCars\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PAF2024#\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\RentCars\\wwwroot\\",
       "BasePath": "_content/RentCars",
       "RelativePath": "script.js",
       "AssetKind": "All",

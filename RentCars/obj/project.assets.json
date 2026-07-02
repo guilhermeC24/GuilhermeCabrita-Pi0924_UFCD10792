@@ -434,11 +434,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PAF2024#\\source\\repos\\RentCars\\RentCars.csproj",
+      "projectUniqueName": "C:\\Users\\PAF2024#\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\RentCars\\RentCars.csproj",
       "projectName": "RentCars",
-      "projectPath": "C:\\Users\\PAF2024#\\source\\repos\\RentCars\\RentCars.csproj",
+      "projectPath": "C:\\Users\\PAF2024#\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\RentCars\\RentCars.csproj",
       "packagesPath": "C:\\Users\\PAF2024#\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PAF2024#\\source\\repos\\RentCars\\obj\\",
+      "outputPath": "C:\\Users\\PAF2024#\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\RentCars\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
