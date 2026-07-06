@@ -1,0 +1,49 @@
+[
+  {
+    "ContainingType": "Projeto___Gest\u00E3o_de_Gin\u00E1sio.Controllers.ClientesController",
+    "Method": "GetClientes",
+    "RelativePath": "Clientes/clientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Projeto___Gest\u00E3o_de_Gin\u00E1sio.Controllers.ClientesController",
+    "Method": "Criar",
+    "RelativePath": "Clientes/criar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Projeto___Gest\u00E3o_de_Gin\u00E1sio.Models.Requests.CreateClienteRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Projeto___Gest\u00E3o_de_Gin\u00E1sio.Controllers.ClientesController",
+    "Method": "Editar",
+    "RelativePath": "Clientes/editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "request",
+        "Type": "Projeto___Gest\u00E3o_de_Gin\u00E1sio.Models.Requests.UpdateClienteRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

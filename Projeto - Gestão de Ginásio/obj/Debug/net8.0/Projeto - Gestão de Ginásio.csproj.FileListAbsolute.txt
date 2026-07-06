@@ -1,0 +1,33 @@
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\obj\Debug\net8.0\Projeto - Gestão de Ginásio.csproj.AssemblyReference.cache
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\obj\Debug\net8.0\Projeto - Gestão de Ginásio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\obj\Debug\net8.0\Projeto - Gestão de Ginásio.AssemblyInfoInputs.cache
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\obj\Debug\net8.0\Projeto - Gestão de Ginásio.AssemblyInfo.cs
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\obj\Debug\net8.0\Projeto - Gestão de Ginásio.csproj.CoreCompileInputs.cache
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\obj\Debug\net8.0\Projeto - Gestão de Ginásio.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\obj\Debug\net8.0\Projeto - Gestão de Ginásio.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\obj\Debug\net8.0\Projeto - Gestão de Ginásio.sourcelink.json
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\bin\Debug\net8.0\appsettings.json
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\bin\Debug\net8.0\Projeto - Gestão de Ginásio.exe
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\bin\Debug\net8.0\Projeto - Gestão de Ginásio.deps.json
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\bin\Debug\net8.0\Projeto - Gestão de Ginásio.runtimeconfig.json
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\bin\Debug\net8.0\Projeto - Gestão de Ginásio.dll
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\bin\Debug\net8.0\Projeto - Gestão de Ginásio.pdb
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\obj\Debug\net8.0\staticwebassets\msbuild.Projeto - Gestão de Ginásio.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\obj\Debug\net8.0\staticwebassets\msbuild.build.Projeto - Gestão de Ginásio.props
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Projeto - Gestão de Ginásio.props
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Projeto - Gestão de Ginásio.props
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\obj\Debug\net8.0\scopedcss\bundle\Projeto - Gestão de Ginásio.styles.css
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\obj\Debug\net8.0\Projeto .3D1AFF8F.Up2Date
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\obj\Debug\net8.0\Projeto - Gestão de Ginásio.dll
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\obj\Debug\net8.0\refint\Projeto - Gestão de Ginásio.dll
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\obj\Debug\net8.0\Projeto - Gestão de Ginásio.pdb
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\obj\Debug\net8.0\Projeto - Gestão de Ginásio.genruntimeconfig.cache
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\obj\Debug\net8.0\ref\Projeto - Gestão de Ginásio.dll

@@ -1,0 +1,6 @@
+@Projeto___Gestão_de_Ginásio_HostAddress = http://localhost:5166
+
+GET {{Projeto___Gestão_de_Ginásio_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
