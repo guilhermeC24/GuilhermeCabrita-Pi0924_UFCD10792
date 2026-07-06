@@ -1,8 +1,6 @@
-const api = "https://localhost:7172/ReservaCar"; // MUDA o porto se necessário
+const api = "https://localhost:7172/ReservaCar";
 
-// --------------------
-// LISTA CARROS DISPONÍVEIS
-// --------------------
+// listar carros disponiveis
 async function mostrarCarros() {
 
     const resposta = await fetch(`${api}/carros`);
@@ -18,9 +16,7 @@ async function mostrarCarros() {
     });
 }
 
-// --------------------
-// RESERVAR CARRO
-// --------------------
+// reservar carro
 async function reservarCarro() {
 
     const marca = document.getElementById("Marca").value;
@@ -52,9 +48,7 @@ async function reservarCarro() {
     }
 }
 
-// --------------------
-// LISTA RESERVADOS
-// --------------------
+// lista reservados
 async function mostrarReservados() {
 
     const resposta = await fetch(`${api}/reservas`);
