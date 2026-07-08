@@ -7,7 +7,7 @@
         public string? Nome { get; set; }
 
         public int Idade { get; set; }
-        public char Sexo { get; set; }
+        public string? Sexo { get; set; }
 
         public int GinasioId { get; set; }
     }

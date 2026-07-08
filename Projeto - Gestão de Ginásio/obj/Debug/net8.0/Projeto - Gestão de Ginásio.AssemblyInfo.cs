@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Projeto - Gestão de Ginásio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b3e2760dbe14afd34405a784cb9d69cbcfb53c8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+939583df358eb9557380488035af5de663d51997")]
 [assembly: System.Reflection.AssemblyProductAttribute("Projeto - Gestão de Ginásio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Projeto - Gestão de Ginásio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

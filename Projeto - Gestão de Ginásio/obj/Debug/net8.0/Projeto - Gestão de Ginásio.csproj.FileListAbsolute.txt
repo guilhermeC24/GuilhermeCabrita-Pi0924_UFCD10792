@@ -31,3 +31,15 @@ C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - G
 C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\obj\Debug\net8.0\Projeto - Gestão de Ginásio.pdb
 C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\obj\Debug\net8.0\Projeto - Gestão de Ginásio.genruntimeconfig.cache
 C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\obj\Debug\net8.0\ref\Projeto - Gestão de Ginásio.dll
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\PAF2024#\Documents\GitHub\GuilhermeCabrita-Pi0924_UFCD10792\Projeto - Gestão de Ginásio\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll

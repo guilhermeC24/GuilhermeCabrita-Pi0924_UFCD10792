@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\PAF2024#\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\RentCars\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8BFAF190-A6DE-4367-9CC8-51B8711D4AA9}|RentCars.csproj|C:\\Users\\PAF2024#\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\RentCars\\wwwroot\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{8BFAF190-A6DE-4367-9CC8-51B8711D4AA9}|RentCars.csproj|solutionrelative:wwwroot\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BFAF190-A6DE-4367-9CC8-51B8711D4AA9}|RentCars.csproj|c:\\users\\paf2024#\\documents\\github\\guilhermecabrita-pi0924_ufcd10792\\rentcars\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8BFAF190-A6DE-4367-9CC8-51B8711D4AA9}|RentCars.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8BFAF190-A6DE-4367-9CC8-51B8711D4AA9}|RentCars.csproj|C:\\Users\\PAF2024#\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\RentCars\\controllers\\rentcarscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8BFAF190-A6DE-4367-9CC8-51B8711D4AA9}|RentCars.csproj|solutionrelative:controllers\\rentcarscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,12 +11,20 @@
       "RelativeMoniker": "D:0:0:{8BFAF190-A6DE-4367-9CC8-51B8711D4AA9}|RentCars.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8BFAF190-A6DE-4367-9CC8-51B8711D4AA9}|RentCars.csproj|c:\\users\\paf2024#\\documents\\github\\guilhermecabrita-pi0924_ufcd10792\\rentcars\\wwwroot\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8BFAF190-A6DE-4367-9CC8-51B8711D4AA9}|RentCars.csproj|solutionrelative:wwwroot\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8BFAF190-A6DE-4367-9CC8-51B8711D4AA9}|RentCars.csproj|C:\\Users\\PAF2024#\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\RentCars\\model\\reservacarrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8BFAF190-A6DE-4367-9CC8-51B8711D4AA9}|RentCars.csproj|solutionrelative:model\\reservacarrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8BFAF190-A6DE-4367-9CC8-51B8711D4AA9}|RentCars.csproj|C:\\Users\\PAF2024#\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\RentCars\\model\\reservacarresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8BFAF190-A6DE-4367-9CC8-51B8711D4AA9}|RentCars.csproj|solutionrelative:model\\reservacarresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BFAF190-A6DE-4367-9CC8-51B8711D4AA9}|RentCars.csproj|C:\\Users\\PAF2024#\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\RentCars\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8BFAF190-A6DE-4367-9CC8-51B8711D4AA9}|RentCars.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\PAF2024#\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\RentCars\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -47,24 +47,26 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-01T14:00:46.424Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "RentCarsController.cs",
               "DocumentMoniker": "C:\\Users\\PAF2024#\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\RentCars\\Controllers\\RentCarsController.cs",
               "RelativeDocumentMoniker": "Controllers\\RentCarsController.cs",
               "ToolTip": "C:\\Users\\PAF2024#\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\RentCars\\Controllers\\RentCarsController.cs",
               "RelativeToolTip": "Controllers\\RentCarsController.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAwwEgAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-01T14:01:41.359Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\PAF2024#\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\RentCars\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "wwwroot\\index.html",
@@ -73,12 +75,11 @@
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2026-07-01T14:08:38.616Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "script.js",
               "DocumentMoniker": "C:\\Users\\PAF2024#\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\RentCars\\wwwroot\\script.js",
               "RelativeDocumentMoniker": "wwwroot\\script.js",
@@ -92,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "ReservaCarRequest.cs",
               "DocumentMoniker": "C:\\Users\\PAF2024#\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\RentCars\\Model\\ReservaCarRequest.cs",
               "RelativeDocumentMoniker": "Model\\ReservaCarRequest.cs",
@@ -100,11 +101,12 @@
               "RelativeToolTip": "Model\\ReservaCarRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T14:02:36.792Z"
+              "WhenOpened": "2026-07-01T14:02:36.792Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "ReservaCarResponse.cs",
               "DocumentMoniker": "C:\\Users\\PAF2024#\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\RentCars\\Model\\ReservaCarResponse.cs",
               "RelativeDocumentMoniker": "Model\\ReservaCarResponse.cs",
@@ -112,7 +114,8 @@
               "RelativeToolTip": "Model\\ReservaCarResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T14:07:46.665Z"
+              "WhenOpened": "2026-07-01T14:07:46.665Z",
+              "EditorCaption": ""
             }
           ]
         }

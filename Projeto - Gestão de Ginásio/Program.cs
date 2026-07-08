@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using Projeto___Gestão_de_Ginásio.Verdades;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +9,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddDbContext<APIContext>(opt => opt.UseInMemoryDatabase("ClientesDB"));
 
 var app = builder.Build();
 
