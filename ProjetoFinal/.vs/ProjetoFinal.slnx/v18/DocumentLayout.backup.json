@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\guice\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\ProjetoFinal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\guice\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\ProjetoFinal\\ApiDarioProjetoFinal\\External\\ServicoPagamentoExterno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiDarioProjetoFinal\\External\\ServicoPagamentoExterno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\guice\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\ProjetoFinal\\ApiDarioProjetoFinal\\Controllers\\ReservasController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiDarioProjetoFinal\\Controllers\\ReservasController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\guice\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\ProjetoFinal\\ApiDarioProjetoFinal\\Controllers\\UtilizadoresController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiDarioProjetoFinal\\Controllers\\UtilizadoresController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\guice\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\ProjetoFinal\\ApiDarioProjetoFinal\\Controllers\\FilmesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiDarioProjetoFinal\\Controllers\\FilmesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\guice\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\ProjetoFinal\\ApiDarioProjetoFinal\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiDarioProjetoFinal\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\guice\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\ProjetoFinal\\Resilience\\ConfiguracaoPolly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Resilience\\ConfiguracaoPolly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\guice\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\ProjetoFinal\\ApiDarioProjetoFinal\\Controllers\\PagamentosController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiDarioProjetoFinal\\Controllers\\PagamentosController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\guice\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\ProjetoFinal\\ApiDarioProjetoFinal\\Program.cs",
               "RelativeDocumentMoniker": "ApiDarioProjetoFinal\\Program.cs",
               "ToolTip": "C:\\Users\\guice\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\ProjetoFinal\\ApiDarioProjetoFinal\\Program.cs",
               "RelativeToolTip": "ApiDarioProjetoFinal\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-31T10:54:50.223Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ConfiguracaoPolly.cs",
-              "DocumentMoniker": "C:\\Users\\guice\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\ProjetoFinal\\Resilience\\ConfiguracaoPolly.cs",
-              "RelativeDocumentMoniker": "Resilience\\ConfiguracaoPolly.cs",
-              "ToolTip": "C:\\Users\\guice\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\ProjetoFinal\\Resilience\\ConfiguracaoPolly.cs",
-              "RelativeToolTip": "Resilience\\ConfiguracaoPolly.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "UtilizadoresController.cs",
+              "DocumentMoniker": "C:\\Users\\guice\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\ProjetoFinal\\ApiDarioProjetoFinal\\Controllers\\UtilizadoresController.cs",
+              "RelativeDocumentMoniker": "ApiDarioProjetoFinal\\Controllers\\UtilizadoresController.cs",
+              "ToolTip": "C:\\Users\\guice\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\ProjetoFinal\\ApiDarioProjetoFinal\\Controllers\\UtilizadoresController.cs",
+              "RelativeToolTip": "ApiDarioProjetoFinal\\Controllers\\UtilizadoresController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAwwG0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T10:49:24.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PagamentosController.cs",
-              "DocumentMoniker": "C:\\Users\\guice\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\ProjetoFinal\\ApiDarioProjetoFinal\\Controllers\\PagamentosController.cs",
-              "RelativeDocumentMoniker": "ApiDarioProjetoFinal\\Controllers\\PagamentosController.cs",
-              "ToolTip": "C:\\Users\\guice\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\ProjetoFinal\\ApiDarioProjetoFinal\\Controllers\\PagamentosController.cs",
-              "RelativeToolTip": "ApiDarioProjetoFinal\\Controllers\\PagamentosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T10:41:24.565Z",
+              "WhenOpened": "2026-07-31T11:45:43.879Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ServicoPagamentoExterno.cs",
-              "DocumentMoniker": "C:\\Users\\guice\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\ProjetoFinal\\ApiDarioProjetoFinal\\External\\ServicoPagamentoExterno.cs",
-              "RelativeDocumentMoniker": "ApiDarioProjetoFinal\\External\\ServicoPagamentoExterno.cs",
-              "ToolTip": "C:\\Users\\guice\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\ProjetoFinal\\ApiDarioProjetoFinal\\External\\ServicoPagamentoExterno.cs",
-              "RelativeToolTip": "ApiDarioProjetoFinal\\External\\ServicoPagamentoExterno.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "ReservasController.cs",
+              "DocumentMoniker": "C:\\Users\\guice\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\ProjetoFinal\\ApiDarioProjetoFinal\\Controllers\\ReservasController.cs",
+              "RelativeDocumentMoniker": "ApiDarioProjetoFinal\\Controllers\\ReservasController.cs",
+              "ToolTip": "C:\\Users\\guice\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\ProjetoFinal\\ApiDarioProjetoFinal\\Controllers\\ReservasController.cs",
+              "RelativeToolTip": "ApiDarioProjetoFinal\\Controllers\\ReservasController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAwwHMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T10:41:06.837Z",
+              "WhenOpened": "2026-07-31T11:45:43.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FilmesController.cs",
+              "DocumentMoniker": "C:\\Users\\guice\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\ProjetoFinal\\ApiDarioProjetoFinal\\Controllers\\FilmesController.cs",
+              "RelativeDocumentMoniker": "ApiDarioProjetoFinal\\Controllers\\FilmesController.cs",
+              "ToolTip": "C:\\Users\\guice\\Documents\\GitHub\\GuilhermeCabrita-Pi0924_UFCD10792\\ProjetoFinal\\ApiDarioProjetoFinal\\Controllers\\FilmesController.cs",
+              "RelativeToolTip": "ApiDarioProjetoFinal\\Controllers\\FilmesController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwIQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T11:42:10.41Z",
               "EditorCaption": ""
             }
           ]

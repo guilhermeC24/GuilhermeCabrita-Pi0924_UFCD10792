@@ -9,9 +9,9 @@ namespace ApiDarioProjetoFinal.Controllers
     {
         private readonly ServicoPagamentoExterno _servicoPagamento;
 
-        public PagamentosController()
+        public PagamentosController(ServicoPagamentoExterno servicoPagamento)
         {
-            _servicoPagamento = new ServicoPagamentoExterno();
+            _servicoPagamento = servicoPagamento;
         }
 
         [HttpPost]

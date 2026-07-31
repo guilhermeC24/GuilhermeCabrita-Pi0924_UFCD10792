@@ -2,9 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\ApiDarioProjetoFinal",
-    "\\imposter",
-    "\\Resilience"
+    "\\ApiDarioProjetoFinal\\Cache",
+    "\\ApiDarioProjetoFinal\\Controllers",
+    "\\ApiDarioProjetoFinal\\Resilience",
+    "\\imposter"
   ],
-  "SelectedNode": "\\ApiDarioProjetoFinal\\Program.cs",
+  "SelectedNode": "\\ApiDarioProjetoFinal\\Controllers\\UtilizadoresController.cs",
   "PreviewInSolutionExplorer": false
 }
